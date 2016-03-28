@@ -4,7 +4,19 @@ var resourceLoader;
 
 
 App.onLaunch = function(options) {
-  
+  evaluateScripts(options.initialJSDependencies,
+    function(success) {
+      if (success) {
+        resourceLoader = new ResourceLoaderJS(NativeResourceLoader.create());
+        var initialDoc = loadInitialDocument(resourceLoader);
+        navigationDocument.pushDocument(initialDoc);
+      } else {
+        var alert = _createAlert("Evaluate Scripts Error", "Error attempting to evaluate the external JS files.");
+        navigationDocument.presentModal(alert);
+
+        throw("Playback Example: unable to evaluate scripts");
+      }
+    });
 };
 
 
