@@ -32,7 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		228569061BF2C22800932673 /* wenderTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wenderTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		228569061BF2C22800932673 /* streamTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = streamTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		228569091BF2C22800932673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		228569101BF2C22800932673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		228569121BF2C22800932673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		228568FD1BF2C22800932673 = {
 			isa = PBXGroup;
 			children = (
-				228569081BF2C22800932673 /* wenderTV */,
+				228569081BF2C22800932673 /* streamTV */,
 				228569071BF2C22800932673 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,12 +80,12 @@
 		228569071BF2C22800932673 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				228569061BF2C22800932673 /* wenderTV.app */,
+				228569061BF2C22800932673 /* streamTV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		228569081BF2C22800932673 /* wenderTV */ = {
+		228569081BF2C22800932673 /* streamTV */ = {
 			isa = PBXGroup;
 			children = (
 				228569181BF2C2D800932673 /* App Resources */,
@@ -94,6 +94,7 @@
 				228569101BF2C22800932673 /* Assets.xcassets */,
 				228569121BF2C22800932673 /* Info.plist */,
 			);
+			name = streamTV;
 			path = wenderTV;
 			sourceTree = "<group>";
 		};
@@ -182,9 +183,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		228569051BF2C22800932673 /* wenderTV */ = {
+		228569051BF2C22800932673 /* streamTV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 228569151BF2C22800932673 /* Build configuration list for PBXNativeTarget "wenderTV" */;
+			buildConfigurationList = 228569151BF2C22800932673 /* Build configuration list for PBXNativeTarget "streamTV" */;
 			buildPhases = (
 				228569021BF2C22800932673 /* Sources */,
 				228569031BF2C22800932673 /* Frameworks */,
@@ -194,9 +195,9 @@
 			);
 			dependencies = (
 			);
-			name = wenderTV;
+			name = streamTV;
 			productName = wenderTV;
-			productReference = 228569061BF2C22800932673 /* wenderTV.app */;
+			productReference = 228569061BF2C22800932673 /* streamTV.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 228569011BF2C22800932673 /* Build configuration list for PBXProject "wenderTV" */;
+			buildConfigurationList = 228569011BF2C22800932673 /* Build configuration list for PBXProject "streamTV" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -227,7 +228,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				228569051BF2C22800932673 /* wenderTV */,
+				228569051BF2C22800932673 /* streamTV */,
 			);
 		};
 /* End PBXProject section */
@@ -363,8 +364,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = wenderTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.entrepreneurgt.wenderTV;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.entrepreneurgt.streamTV;
+				PRODUCT_NAME = streamTV;
 			};
 			name = Debug;
 		};
@@ -375,15 +376,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = wenderTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.entrepreneurgt.wenderTV;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.entrepreneurgt.streamTV;
+				PRODUCT_NAME = streamTV;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		228569011BF2C22800932673 /* Build configuration list for PBXProject "wenderTV" */ = {
+		228569011BF2C22800932673 /* Build configuration list for PBXProject "streamTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				228569131BF2C22800932673 /* Debug */,
@@ -392,7 +393,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		228569151BF2C22800932673 /* Build configuration list for PBXNativeTarget "wenderTV" */ = {
+		228569151BF2C22800932673 /* Build configuration list for PBXNativeTarget "streamTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				228569161BF2C22800932673 /* Debug */,
