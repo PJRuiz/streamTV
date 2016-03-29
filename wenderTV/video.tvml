@@ -47,6 +47,7 @@
   		</stack>
   		<heroImg src="{{images.hero}}" />
   	</banner>
+  	<!-- Recommendations -->
   	<shelf>
   		<header>
   			<title>You might also like</title>
@@ -60,6 +61,7 @@
 			{{/recommendations}}
 		</section>
 	</shelf>
+	<!-- Production Team -->
 	<shelf>
 		<header>
 			<title>Production</title>
@@ -72,6 +74,31 @@
 					<subtitle>{{role}}</subtitle>
 				</monogramLockup>
 			{{/people}}
+		</section>
+	</shelf>
+
+	<!-- Ratings -->
+	<shelf>
+		<header>
+			<title>What other people thought</title>
+		</header>
+		<section>
+			{{#ratings-reviews}}
+				<ratingCard action="addRating">
+					{{#rw-ratings}}
+						<title>{{out-of-five}} / 5</title>
+						<ratingBadge value="{{badge-value}}"></ratingBadge>
+						<description>Mean of {{count}} ratings.</description>
+					{{/rw-ratings}}
+				</ratingCard>
+				{{#reviews}}
+					<reviewCard>
+						<title>{{title}}</title>
+						<descritpion>{{description}}</descritpion>
+						<text>{{name}} {{date}}</text>
+					</reviewCard>
+				{{/reviews}}
+			{{/ratings-reviews}}
 		</section>
 	</shelf>
   </productTemplate>
