@@ -18,7 +18,7 @@ import JavaScriptCore
     let path = NSBundle.mainBundle().pathForResource(name, ofType: nil)
     do {
       return try String(contentsOfFile: path!,
-        encoding: NSUTF8StringEncoding)
+                        encoding: NSUTF8StringEncoding)
     } catch {
       print("There was a problem")
       return ""

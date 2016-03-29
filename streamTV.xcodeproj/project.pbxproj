@@ -29,6 +29,9 @@
 		22987B951BF74F3500D0468A /* recognition.json in Resources */ = {isa = PBXBuildFile; fileRef = 22987B941BF74F3500D0468A /* recognition.json */; };
 		22987B971BF74F4600D0468A /* starting-over.json in Resources */ = {isa = PBXBuildFile; fileRef = 22987B961BF74F4600D0468A /* starting-over.json */; };
 		22987B991BF74F5300D0468A /* identity.json in Resources */ = {isa = PBXBuildFile; fileRef = 22987B981BF74F5300D0468A /* identity.json */; };
+		952B1F091CAA5AA900BE22E1 /* DataController.js in Resources */ = {isa = PBXBuildFile; fileRef = 952B1F081CAA5AA900BE22E1 /* DataController.js */; };
+		952B1F0B1CAA5AC200BE22E1 /* Presenter.js in Resources */ = {isa = PBXBuildFile; fileRef = 952B1F0A1CAA5AC200BE22E1 /* Presenter.js */; };
+		952B1F0D1CAA5AE100BE22E1 /* EventHandler.js in Resources */ = {isa = PBXBuildFile; fileRef = 952B1F0C1CAA5AE100BE22E1 /* EventHandler.js */; };
 		955C84CF1CA8FD86003FE827 /* video.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 955C84CE1CA8FD86003FE827 /* video.tvml */; };
 		955C84D11CAA21AB003FE827 /* expandedDetailText.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 955C84D01CAA21AB003FE827 /* expandedDetailText.tvml */; };
 		955C84D31CAA2BA2003FE827 /* videoRating.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 955C84D21CAA2BA2003FE827 /* videoRating.tvml */; };
@@ -59,6 +62,9 @@
 		22987B941BF74F3500D0468A /* recognition.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recognition.json; sourceTree = "<group>"; };
 		22987B961BF74F4600D0468A /* starting-over.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "starting-over.json"; sourceTree = "<group>"; };
 		22987B981BF74F5300D0468A /* identity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = identity.json; sourceTree = "<group>"; };
+		952B1F081CAA5AA900BE22E1 /* DataController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DataController.js; sourceTree = "<group>"; };
+		952B1F0A1CAA5AC200BE22E1 /* Presenter.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Presenter.js; sourceTree = "<group>"; };
+		952B1F0C1CAA5AE100BE22E1 /* EventHandler.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = EventHandler.js; sourceTree = "<group>"; };
 		955C84CE1CA8FD86003FE827 /* video.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = video.tvml; sourceTree = "<group>"; };
 		955C84D01CAA21AB003FE827 /* expandedDetailText.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = expandedDetailText.tvml; sourceTree = "<group>"; };
 		955C84D21CAA2BA2003FE827 /* videoRating.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = videoRating.tvml; sourceTree = "<group>"; };
@@ -175,6 +181,9 @@
 			isa = PBXGroup;
 			children = (
 				22987B6C1BF5D08200D0468A /* ResourceLoader.js */,
+				952B1F081CAA5AA900BE22E1 /* DataController.js */,
+				952B1F0A1CAA5AC200BE22E1 /* Presenter.js */,
+				952B1F0C1CAA5AE100BE22E1 /* EventHandler.js */,
 			);
 			name = utilities;
 			sourceTree = "<group>";
@@ -249,6 +258,7 @@
 			files = (
 				22987B6F1BF5DF2E00D0468A /* mustache.min.js in Resources */,
 				22987B791BF70CAA00D0468A /* talk-ray-wenderlich-teamwork.jpeg in Resources */,
+				952B1F091CAA5AA900BE22E1 /* DataController.js in Resources */,
 				228569111BF2C22800932673 /* Assets.xcassets in Resources */,
 				22987B831BF71CF500D0468A /* talk-marin-todorov-rw-folklore.png in Resources */,
 				22987B891BF724DE00D0468A /* heads.png in Resources */,
@@ -265,10 +275,12 @@
 				22987B971BF74F4600D0468A /* starting-over.json in Resources */,
 				22987B711BF6C74600D0468A /* teamwork.json in Resources */,
 				22987B931BF74F1C00D0468A /* craftsmanship.json in Resources */,
+				952B1F0B1CAA5AC200BE22E1 /* Presenter.js in Resources */,
 				22987B801BF7143600D0468A /* talk-ellen-shapiro-starting-over.png in Resources */,
 				22987B951BF74F3500D0468A /* recognition.json in Resources */,
 				22987B911BF74DF900D0468A /* rw-folklore.json in Resources */,
 				22987B7F1BF7143600D0468A /* talk-chris-wagner-craftsmanship.png in Resources */,
+				952B1F0D1CAA5AE100BE22E1 /* EventHandler.js in Resources */,
 				22987B991BF74F5300D0468A /* identity.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

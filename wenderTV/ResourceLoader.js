@@ -11,27 +11,18 @@ class ResourceLoaderJS {
     data = data || {};
     var docString = this.nativeResourceLoader.loadBundleResource(name);
     var rendered = Mustache.render(docString, data);
+    
     return this.domParser.parseFromString(rendered, "application/xml");
   }
-
-
+  
+  getJSON(name) {
+    var jsonString = this.nativeResourceLoader.loadBundleResource(name);
+    var json = JSON.parse(jsonString);
+    return json;
+  }
   
   urlForResource(name) {
     return this.nativeResourceLoader.urlForResource(name);
-  }
-
-  recursivelyConvertFieldsToURLs(data, key) {
-    var dataCopy = Object.assign({}, data);
-    var urlForResource = this.urlForResource.bind(this);
-    recursiveApplyOnKey(dataCopy, key, function(value) {
-      if (typeof(value) === 'string') {
-        console.log(value);
-        return urlForResource(value);
-      } else {
-        return value;
-      }
-    });
-    return dataCopy;
   }
   
   convertNamesToURLs(data) {
@@ -41,13 +32,19 @@ class ResourceLoaderJS {
     }
     return convertedData;
   }
-
-  getJSON(name) {
-    var jsonString = this.nativeResourceLoader.loadBundleResource(name);
-    var json = JSON.parse(jsonString);
-    return json;
-  }
   
+  recursivelyConvertFieldsToURLs(data, key) {
+    var dataCopy = Object.assign({}, data);
+    var urlForResource = this.urlForResource.bind(this);
+    recursiveApplyOnKey(dataCopy, key, function(value) {
+                        if (typeof(value) === 'string') {
+                        return urlForResource(value);
+                        } else {
+                        return value;
+                        }
+                        });
+    return dataCopy;
+  }
 }
 
 function recursiveApplyOnKey(obj, key, callback) {
@@ -59,5 +56,4 @@ function recursiveApplyOnKey(obj, key, callback) {
       recursiveApplyOnKey(obj[p], key, callback);
     }
   }
-
 }
