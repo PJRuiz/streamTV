@@ -31,6 +31,7 @@
 		22987B991BF74F5300D0468A /* identity.json in Resources */ = {isa = PBXBuildFile; fileRef = 22987B981BF74F5300D0468A /* identity.json */; };
 		955C84CF1CA8FD86003FE827 /* video.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 955C84CE1CA8FD86003FE827 /* video.tvml */; };
 		955C84D11CAA21AB003FE827 /* expandedDetailText.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 955C84D01CAA21AB003FE827 /* expandedDetailText.tvml */; };
+		955C84D31CAA2BA2003FE827 /* videoRating.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 955C84D21CAA2BA2003FE827 /* videoRating.tvml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		22987B981BF74F5300D0468A /* identity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = identity.json; sourceTree = "<group>"; };
 		955C84CE1CA8FD86003FE827 /* video.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = video.tvml; sourceTree = "<group>"; };
 		955C84D01CAA21AB003FE827 /* expandedDetailText.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = expandedDetailText.tvml; sourceTree = "<group>"; };
+		955C84D21CAA2BA2003FE827 /* videoRating.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = videoRating.tvml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 			children = (
 				955C84CE1CA8FD86003FE827 /* video.tvml */,
 				955C84D01CAA21AB003FE827 /* expandedDetailText.tvml */,
+				955C84D21CAA2BA2003FE827 /* videoRating.tvml */,
 			);
 			name = layouts;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				22987B831BF71CF500D0468A /* talk-marin-todorov-rw-folklore.png in Resources */,
 				22987B891BF724DE00D0468A /* heads.png in Resources */,
 				955C84D11CAA21AB003FE827 /* expandedDetailText.tvml in Resources */,
+				955C84D31CAA2BA2003FE827 /* videoRating.tvml in Resources */,
 				2285691C1BF2C35E00932673 /* main.js in Resources */,
 				22987B881BF724DE00D0468A /* face.png in Resources */,
 				22987B811BF7143600D0468A /* talk-vicki-wenderlich-identity.png in Resources */,

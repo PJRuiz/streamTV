@@ -94,7 +94,7 @@
 				{{#reviews}}
 					<reviewCard>
 						<title>{{title}}</title>
-						<descritpion>{{description}}</descritpion>
+						<description>{{description}}</description>
 						<text>{{name}} {{date}}</text>
 					</reviewCard>
 				{{/reviews}}
