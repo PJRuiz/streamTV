@@ -7,9 +7,11 @@ class ResourceLoaderJS {
     this.domParser = new DOMParser();
   }
   
-  getDocument(name) {
+  getDocument(name, data) {
+    data = data || {};
     var docString = this.nativeResourceLoader.loadBundleResource(name);
-    return this.domParser.parseFromString(docString, "application/xml");
+    var rendered = Mustache.render(docString, data);
+    return this.domParser.parseFromString(rendered, "application/xml");
   }
 
 
@@ -39,6 +41,12 @@ class ResourceLoaderJS {
     }
     return convertedData;
   }
+
+  getJSON(name) {
+    var jsonString = this.nativeResourceLoader.loadBundleResource(name);
+    var json = JSON.parse(jsonString);
+    return json;
+  }
   
 }
 
@@ -51,4 +59,5 @@ function recursiveApplyOnKey(obj, key, callback) {
       recursiveApplyOnKey(obj[p], key, callback);
     }
   }
+
 }

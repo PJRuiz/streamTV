@@ -29,6 +29,8 @@
 		22987B951BF74F3500D0468A /* recognition.json in Resources */ = {isa = PBXBuildFile; fileRef = 22987B941BF74F3500D0468A /* recognition.json */; };
 		22987B971BF74F4600D0468A /* starting-over.json in Resources */ = {isa = PBXBuildFile; fileRef = 22987B961BF74F4600D0468A /* starting-over.json */; };
 		22987B991BF74F5300D0468A /* identity.json in Resources */ = {isa = PBXBuildFile; fileRef = 22987B981BF74F5300D0468A /* identity.json */; };
+		955C84CF1CA8FD86003FE827 /* video.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 955C84CE1CA8FD86003FE827 /* video.tvml */; };
+		955C84D11CAA21AB003FE827 /* expandedDetailText.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 955C84D01CAA21AB003FE827 /* expandedDetailText.tvml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		22987B941BF74F3500D0468A /* recognition.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recognition.json; sourceTree = "<group>"; };
 		22987B961BF74F4600D0468A /* starting-over.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "starting-over.json"; sourceTree = "<group>"; };
 		22987B981BF74F5300D0468A /* identity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = identity.json; sourceTree = "<group>"; };
+		955C84CE1CA8FD86003FE827 /* video.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = video.tvml; sourceTree = "<group>"; };
+		955C84D01CAA21AB003FE827 /* expandedDetailText.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = expandedDetailText.tvml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 		22987B9A1BF78AF800D0468A /* layouts */ = {
 			isa = PBXGroup;
 			children = (
+				955C84CE1CA8FD86003FE827 /* video.tvml */,
+				955C84D01CAA21AB003FE827 /* expandedDetailText.tvml */,
 			);
 			name = layouts;
 			sourceTree = "<group>";
@@ -243,12 +249,14 @@
 				228569111BF2C22800932673 /* Assets.xcassets in Resources */,
 				22987B831BF71CF500D0468A /* talk-marin-todorov-rw-folklore.png in Resources */,
 				22987B891BF724DE00D0468A /* heads.png in Resources */,
+				955C84D11CAA21AB003FE827 /* expandedDetailText.tvml in Resources */,
 				2285691C1BF2C35E00932673 /* main.js in Resources */,
 				22987B881BF724DE00D0468A /* face.png in Resources */,
 				22987B811BF7143600D0468A /* talk-vicki-wenderlich-identity.png in Resources */,
 				22987B7E1BF7143600D0468A /* talk-cesare-rocchi-recognition.png in Resources */,
 				22987B8A1BF724DE00D0468A /* rock.png in Resources */,
 				22987B771BF6DB0700D0468A /* tv_background.png in Resources */,
+				955C84CF1CA8FD86003FE827 /* video.tvml in Resources */,
 				22987B6D1BF5D08200D0468A /* ResourceLoader.js in Resources */,
 				22987B971BF74F4600D0468A /* starting-over.json in Resources */,
 				22987B711BF6C74600D0468A /* teamwork.json in Resources */,
